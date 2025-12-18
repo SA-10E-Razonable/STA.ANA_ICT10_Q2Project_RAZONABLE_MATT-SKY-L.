@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guitar Club</title>
     
-    <!-- PyScript 2024 -->
     <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
     <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
 
@@ -58,8 +57,7 @@
             display: block; 
             background-color: #FFDE59; 
             width: 60%;
-            height: 300px; /* slightly shorter */
-            overflow-y: auto; /* scroll if needed */
+            height: 300px; 
             padding: 60px;
             border-radius: 80px;
             border: 15px solid black;
@@ -67,7 +65,7 @@
             left:200px;
             position:absolute;
             font-family: 'Glacial Indifference', sans-serif;
-            color: #000000; /* default text color black */
+            color: #000000; 
         }
 
         .category-title {
@@ -144,7 +142,7 @@ club_info = {
 @when("click", "#show-info-btn")
 def show_club_info(e=None):
     container = document.getElementById("club-info-container")
-    container.innerHTML = ""  # clear previous content
+    container.innerHTML = ""  
 
     info = club_info["guitar"]
 
@@ -169,6 +167,7 @@ def show_club_info(e=None):
 
 </body>
 </html>
+
 
 
 
