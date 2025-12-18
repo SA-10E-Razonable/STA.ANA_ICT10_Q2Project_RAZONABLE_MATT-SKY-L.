@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhythmic Four Music School</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Glacial+Indifference:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: url("bg.png") no-repeat center top;
+            background-size: cover;
+            font-family: 'Glacial Indifference', sans-serif;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            position: absolute;
+            top: 0px;
+            left: 60px;
+        }
+
+        .nav-link {
+            color: #f4f6fc !important;
+            font-size: 22px;
+            margin-right: 70px;
+        }
+
+        .nav-link:hover {
+            color: #ffde59 !important;
+        }
+
+        /* LEFT SIDE LOGO + TITLES */
+        #logo {
+            position: absolute;
+            top: 120px;
+            left: 60px;
+            height: 210px;
+        }
+
+        .title-line {
+            font-family: 'Playfair Display', serif;
+            color: #ffde59;
+            font-weight: bold;
+            font-size: 45px;
+            position: absolute;
+        }
+
+        #t1 { top: 150px; left: 250px; }
+        #t2 { top: 210px; left: 260px; }
+
+        #since {
+            position: absolute;
+            top: 272px;
+            left: 350px;
+            color: #f4f6fc;
+            font-family: 'Playfair Display', serif;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        /* ABOUT TITLE — smaller now */
+        #about-title {
+            position: absolute;
+            top: 340px;
+            left: 170px;
+            font-size: 22px;        /* smaller */
+            color: #f4f6fc;
+            font-weight: bold;
+        }
+
+        /* PARAGRAPHS — smaller + more spacing */
+        .about-text {
+            position: absolute;
+            left: 100px;
+            color: #f4f6fc;
+            font-size: 16px;         /* smaller text */
+            line-height: 1.45;
+        }
+
+        /* much more spacing between paragraphs (FOLLOWING THE PHOTO) */
+       #p1 { top: 390px; left: 170px; position: absolute; }
+       #p2 { top: 465px; left: 170px; position: absolute; }
+       #p3 { top: 545px; left: 170px; position: absolute; }
+
+        /* read more */
+        #readmore {
+            position: absolute;
+            top: 640px;   /* adjusted for new spacing */
+            left: 340px;
+            background: #ffde59;
+            color: black;
+            border-radius: 30px;
+            padding: 10px 30px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="navbar-nav">
+            <a class="nav-link" href="file:///C:/Users/razon/Downloads/ICT%202Q%20PROJ/home.html#">Home</a>
+            <a class="nav-link" href="file:///C:/Users/razon/Downloads/ICT%202Q%20PROJ/index.html#">Grade Calculator</a>
+            <a class="nav-link" href="file:///C:/Users/razon/Downloads/ICT%202Q%20PROJ/clubs.html">Club</a>
+        </div>
+    </nav>
+
+
+    <img src="logo.png" id="logo">
+
+    <p class="title-line" id="t1">RHYTHMIC FOUR</p>
+    <p class="title-line" id="t2">MUSIC SCHOOL</p>
+    <p id="since">SINCE 2025</p>
+
+    <p id="about-title">About Our School</p>
+
+    <p class="about-text" id="p1">
+        Rhythmic Four Music School nurtures talent and creativity through<br>
+        our four main programs: Piano, Guitar, Violin, and Drums.
+    </p>
+
+    <p class="about-text" id="p2">
+        We combine structured lessons with performance-based learning,<br>
+        helping students develop technical skills, musical expression,<br>
+        and confidence.
+    </p>
+
+    <p class="about-text" id="p3">
+        From beginners to advanced musicians, our supportive<br>
+        environment inspires every student to find their rhythm,<br>
+        explore their voice, and make music with heart.
+    </p>
+
+    <a id="readmore" href="#">Read More</a>
+
+</body>
+</html>
